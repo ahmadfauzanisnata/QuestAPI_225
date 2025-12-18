@@ -8,3 +8,8 @@ interface RepositoryDataSiswa{
     suspend fun postDataSiswa(dataSiswa: DataSiswa) : retrofit2.Response<Void>
 
 }
+
+class JaringanRepositoryDataSiswa(
+    private val ServiceApiSiswa: ServiceApiSiswa
+): RepositoryDataSiswa{
+
