@@ -40,7 +40,14 @@ class DefaultAppContainer : ContainerApp {
     }
 }
 
-
+class RepositoryDataSiswa : Application {
+    leteinit
+    var container: ContainerApp
+    override fun onCreate() {
+        super.onCreate()
+        container = DefaultAppContainer()
+    }
+}
 
 
 
