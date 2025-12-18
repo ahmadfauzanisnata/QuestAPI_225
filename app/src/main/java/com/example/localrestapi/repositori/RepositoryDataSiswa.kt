@@ -13,3 +13,6 @@ class JaringanRepositoryDataSiswa(
     private val ServiceApiSiswa: ServiceApiSiswa
 ): RepositoryDataSiswa{
 
+override suspend fun getDataSiswa(): List<DataSiswa> = ServiceApiSiswa.getSiswa()
+override suspend fun postDataSiswa(dataSiswa: DataSiswa): retrofit2.Response<Void> = ServiceApiSiswa.postSiswa(dataSiswa)
+}
