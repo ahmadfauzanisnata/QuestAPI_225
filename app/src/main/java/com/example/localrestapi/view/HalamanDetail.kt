@@ -29,4 +29,11 @@ fun DetailSiswaScreen(
     navigateBack: () -> Unit,
     modifier: Modifier = Modifier,
     viewModel: DetailViewModel = viewModel(factory = PenyediaViewModel.Factory)
-) }
+) {
+    // 🔥 RELOAD AMAN (tidak jalan saat delete)
+    LaunchedEffect(viewModel.isDeleted) {
+        if (!viewModel.isDeleted) {
+            viewModel.getSatuSiswa()
+        }
+    }
+
