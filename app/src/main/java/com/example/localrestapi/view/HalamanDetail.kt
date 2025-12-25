@@ -165,4 +165,13 @@ private fun BarisDetailData(
 private fun DeleteConfirmationDialog(
     onDeleteConfirm: () -> Unit,
     onDeleteCancel: () -> Unit
-)
+) {
+    AlertDialog(
+        onDismissRequest = {},
+        title = { Text(stringResource(R.string.attention)) },
+        text = { Text(stringResource(R.string.tanya)) },
+        dismissButton = {
+            TextButton(onClick = onDeleteCancel) {
+                Text(stringResource(R.string.no))
+            }
+        },
