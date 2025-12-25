@@ -45,4 +45,14 @@ fun DetailSiswaScreen(
                 navigateUp = navigateBack
             )
         },
-       }
+        floatingActionButton = {
+            val uiState = viewModel.statusUIDetail
+            FloatingActionButton(
+                onClick = {
+                    if (uiState is StatusUIDetail.Success) {
+                        navigateToEditItem(uiState.siswa.id)
+                    }
+                },
+                shape = MaterialTheme.shapes.medium,
+                modifier = Modifier.padding(dimensionResource(R.dimen.padding_large))
+            ) }
