@@ -37,3 +37,12 @@ fun DetailSiswaScreen(
         }
     }
 
+    Scaffold(
+        topBar = {
+            SiswaTopAppBar(
+                title = stringResource(DestinasiDetail.titleRes),
+                canNavigateBack = true,
+                navigateUp = navigateBack
+            )
+        },
+       }
