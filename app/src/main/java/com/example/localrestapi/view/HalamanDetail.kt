@@ -129,4 +129,10 @@ private fun BodyDetailDataSiswa(
 fun DetailDataSiswa(
     siswa: DataSiswa,
     modifier: Modifier = Modifier
-) }
+) {
+    Card(
+        modifier = modifier,
+        colors = CardDefaults.cardColors(
+            containerColor = MaterialTheme.colorScheme.primaryContainer
+        )
+    )
