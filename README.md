@@ -4,7 +4,7 @@
 2. Tampilan Data Siswa (Home)
 <img width="379" height="819" alt="image" src="https://github.com/user-attachments/assets/5dfa1896-94f4-436c-8234-b775fc2dbddb" />
 
-3. Tampilan Database 
+3. Tampilan Databasee 
 <img width="1919" height="585" alt="image" src="https://github.com/user-attachments/assets/d2eefc05-edd3-4604-915a-2fec81420e4c" />
 
 4. Tampilan Halaman Detail Siswa
