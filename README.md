@@ -16,7 +16,6 @@
 6.Tampilan Untuk Menghapus Data isnata
 <img width="385" height="787" alt="image" src="https://github.com/user-attachments/assets/987e7702-9ca7-4adb-93db-b27201e80639" />
 
-
 7. Tampilan Database ketika data isnata belum dihapus
 <img width="1919" height="419" alt="image" src="https://github.com/user-attachments/assets/18ecf3eb-3c22-456d-a29e-aa2ba32c7793" />
 
