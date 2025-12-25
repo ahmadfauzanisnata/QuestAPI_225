@@ -55,4 +55,12 @@ fun DetailSiswaScreen(
                 },
                 shape = MaterialTheme.shapes.medium,
                 modifier = Modifier.padding(dimensionResource(R.dimen.padding_large))
-            ) }
+            ) {
+                Icon(
+                    imageVector = Icons.Default.Edit,
+                    contentDescription = stringResource(R.string.update)
+                )
+            }
+        },
+        modifier = modifier
+    )
