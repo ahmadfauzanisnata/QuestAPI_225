@@ -153,4 +153,10 @@ fun DetailDataSiswa(
 private fun BarisDetailData(
     @StringRes labelResID: Int,
     itemDetail: String
-)
+) {
+    Row {
+        Text(stringResource(labelResID))
+        Spacer(Modifier.weight(1f))
+        Text(itemDetail, fontWeight = FontWeight.Bold)
+    }
+}
