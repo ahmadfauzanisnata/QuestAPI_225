@@ -160,3 +160,9 @@ private fun BarisDetailData(
         Text(itemDetail, fontWeight = FontWeight.Bold)
     }
 }
+
+@Composable
+private fun DeleteConfirmationDialog(
+    onDeleteConfirm: () -> Unit,
+    onDeleteCancel: () -> Unit
+)
